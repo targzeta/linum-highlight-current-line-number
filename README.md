@@ -20,4 +20,4 @@ execute the following code either directly or in your .emacs file:
 Customization
 -------------
 
-**`M-x customize-group`** and then **`linum`**. Finally, **Linum Current Line Face**.
+**`M-x customize-group`** and then **`linum`**. Finally, **Linum Current Line Number Face**.

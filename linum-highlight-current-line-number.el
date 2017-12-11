@@ -39,14 +39,14 @@
 ;;
 ;; You can change the face for the current line number with:
 ;;
-;; M-x customize-group and then "linum". Finally, "Linum Current Line Face"
+;; M-x customize-group and then "linum". Finally, "Linum Current Line Number Face"
 ;;
 ;;; Code:
 
 (require 'linum)
 
 ;; Customization
-(defface linum-current-line-face
+(defface linum-current-line-number-face
   `((t :inherit linum
        :foreground "goldenrod"
        :weight bold))
@@ -68,9 +68,9 @@
                                    (count-lines (point-min) (point-max))))))))
 
 (defun linum-highlight-current-line-number (line-number)
-  "Highlight the current line number using `linum-current-line-face' face."
+  "Highlight the current line number using `linum-current-line-number-face' face."
   (let ((face (if (= line-number linum-current-line)
-                  'linum-current-line-face
+                  'linum-current-line-number-face
                 'linum)))
     (propertize (format (concat "%" linum-border-width "d") line-number)
                 'face face)))

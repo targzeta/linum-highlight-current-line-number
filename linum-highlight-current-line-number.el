@@ -3,6 +3,7 @@
 ;; Copyright (C) 2014-2017 Emanuele Tomasi <targzeta@gmail.com>
 ;;
 ;; Author: Emanuele Tomasi <targzeta@gmail.com>
+;; URL: https://github.com/targzeta/linum-highlight-current-line-number
 ;; Maintainer: Emanuele Tomasi <targzeta@gmail.com>
 ;; Keywords: convenience
 ;; Version: 1.0
